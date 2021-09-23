@@ -56,8 +56,3 @@
    
 2. Temporal coupling?
    - Another form of coupling you may have heard of is temporal coupling. From a code-centric view of coupling, temporal coupling refers to a situation in which concepts are bundled together purely because they happen at the same time. Temporal coupling has a subtly different meaning in the context of a distributed system, where it refers to a situation in which one microservice needs another microservice to do something at the same time for the operation to complete.
-
-3. Microservice monitoring frameworks?
-   - Prometheus (event monitoring and alerting)
-   - Grafana
-   - Zipkin
