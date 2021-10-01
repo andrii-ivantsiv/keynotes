@@ -11,9 +11,12 @@
    - Master-Slave in ActiveMQ, quorum
    
 3. Durability?
-   - A common pattern is to have the producer send the message to the topic and then have the queues subscribe to the topic. This allows each queue to receive its own copy of the message. But what happens to the message if it is sent to the topic, but no queues are online (remember our queues subscribe to the topic)?
-   This is where durability comes into play. When a durable subscription is set up between a queue and a topic, the queue can be offline when the message hits the topic. Once the queue comes back online, the message can be received.
-   If the subscription is non-durable, then any messages received to the topic while the topic subscriber is offline will not be received by the subscriber (in this case the queue).
+   - A common pattern is to have the producer send the message to the topic and then have the queues subscribe to the topic. 
+   This allows each queue to receive its own copy of the message. But what happens to the message if it is sent to the topic, 
+   but no queues are online (remember our queues subscribe to the topic)? This is where durability comes into play. 
+   When a durable subscription is set up between a queue and a topic, the queue can be offline when the message hits the topic. 
+   Once the queue comes back online, the message can be received. If the subscription is non-durable, then any messages received 
+   to the topic while the topic subscriber is offline will not be received by the subscriber (in this case the queue).
 
 ### VCS
 1. Git flows?
