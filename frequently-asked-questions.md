@@ -47,7 +47,9 @@
    - Shadow: Version B receives real-world traffic alongside version A and doesn’t impact the response.
 
 2. Orchestration vs choreography?
-   - The choreography describes the interactions between multiple services, where as orchestration represents control from one party's perspective. This means that a choreography differs from an orchestration with respect to where the logic that controls the interactions between the services involved should reside.
+   - The choreography describes the interactions between multiple services, where as orchestration represents control 
+   from one party's perspective. This means that a choreography differs from an orchestration with respect to where 
+   the logic that controls the interactions between the services involved should reside.
 
 ### Architecture
 1. Types of architecture design patterns?
@@ -58,4 +60,7 @@
    - Service-oriented architecture
    
 2. Temporal coupling?
-   - Another form of coupling you may have heard of is temporal coupling. From a code-centric view of coupling, temporal coupling refers to a situation in which concepts are bundled together purely because they happen at the same time. Temporal coupling has a subtly different meaning in the context of a distributed system, where it refers to a situation in which one microservice needs another microservice to do something at the same time for the operation to complete.
+   - Another form of coupling you may have heard of is temporal coupling. From a code-centric view of coupling, 
+   temporal coupling refers to a situation in which concepts are bundled together purely because they happen at the same time. 
+   Temporal coupling has a subtly different meaning in the context of a distributed system, where it refers to a situation 
+   in which one microservice needs another microservice to do something at the same time for the operation to complete.
