@@ -1,5 +1,8 @@
 # microservices
 
+What is microservices:
+1. Functional decomposition
+
 1. Microservices communication
 - sync
 - async
